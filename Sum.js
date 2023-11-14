@@ -10,4 +10,9 @@ if(null){
     console.log("It's a falsy value");
 }
 
+console.log({} == [])
+console.log("type: ",typeof null);
+const a = {};
+console.log(Array.isArray(a));
+
 module.exports = Sum;

@@ -6,6 +6,7 @@ describe("example test", () => {
         expect(result).toBe(30);
     })
 
+    // How to test Object
     it("object assigment", () => {
         const obj = {};
         expect(obj).toEqual({}); // When ever we have array or object we should go for toEqual method
@@ -31,3 +32,4 @@ describe("truthy or falsey", () => {
     expect(val).toBeLessThan(5);
    })
 })
+
